@@ -1,0 +1,73 @@
+:root{
+    --background-color :  #eeedef;
+    --button-color : #ff5232;
+}
+form{
+    background-color: var(--background-color);
+    width: 1000px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.input-field{
+    padding-left: 20px;
+    font-size: 25px;
+    border-radius: 8px;
+    width: 800px;
+    height: 50px;
+}
+.add-button{
+    cursor: pointer;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--button-color);
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    height: 50px;
+    width: 100px;
+}
+.tasks{
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+    background-color: var(--background-color);
+    min-height: 40px;
+    width: 1000px;
+    padding: 30px;
+
+}
+.task{
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px 0;
+    
+    width: 970px;
+}
+.delete-button{
+    color: #fff;
+    background-color: var(--button-color);
+    float: right;
+    position: relative;
+    top: 15px;
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
